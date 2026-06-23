@@ -6,7 +6,7 @@ public class App
 public static void main( String[] args )
 {
 Gson gson = new Gson();
-String json = gson.toJson(new Person("Chandana K T", 21));
+String json = gson.toJson(new Person("Aishwarya", 20));
 System.out.println(json);
 }
 }
